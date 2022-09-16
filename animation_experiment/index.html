@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kiwi Animation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+
+</head>
+
+
+<body>
+    <object id='kiwiobject' width="120px" data="/image" type="image/svg+xml" alt="input" class=""></object>
+
+    <script>
+        var loadingDone = false;
+        var objectTag;
+        var kiwibase;
+        var kiwileftleg;
+        var kiwirightleg;
+        var kiwisuitcase;
+        var kiwirightwing;
+        var kiwileftwing;
+        var kiwifish;
+        window.addEventListener("load", function () {
+            objectTag = document.getElementById("kiwiobject");
+            kiwibase = objectTag.contentDocument.getElementById("Base");
+            kiwileftleg = objectTag.contentDocument.getElementById("Left-Leg");
+            kiwirightleg = objectTag.contentDocument.getElementById("Right-Leg");
+            kiwisuitcase = objectTag.contentDocument.getElementById("Right-Suitcase");
+            kiwirightwing = objectTag.contentDocument.getElementById("Right_wing");
+            kiwileftwing = objectTag.contentDocument.getElementById("Left_wing");
+            kiwifish = objectTag.contentDocument.getElementById("Left-Fishing");
+            kiwileftleg.getElementsByTagName('path')[0].setAttribute('class', 'leftleg');
+            kiwileftleg.getElementsByTagName('path')[1].setAttribute('class', 'leftlegshadow');
+            kiwirightleg.getElementsByTagName('path')[0].setAttribute('class', 'rightleg');
+            kiwirightleg.getElementsByTagName('path')[1].setAttribute('class', 'rightlegshadow');
+            kiwisuitcase.setAttribute('class', 'suitcase');
+            kiwirightwing.setAttribute('class', 'suitcase');
+            loadingDone = true;
+        });
+        document.onkeypress = function (e) {
+            e = e ||
+                window.event;
+            if (!loadingDone) {
+                return;
+            }
+
+            if (e.keyCode == 49) {
+                var attr = kiwifish.getAttributeNames(); if (attr.indexOf('class') < 0) {
+                    kiwifish.setAttribute('class', 'leftwing');
+                } else { kiwifish.removeAttribute('class'); }
+            } else
+                if (e.keyCode == 50) {
+                    var attr = kiwifish.getAttributeNames();
+                    varclassID = kiwifish.getElementsByTagName('g')[1].getElementsByTagName('path')[5].getAttribute('class');
+                    if (classID == "cls-14") {
+                        kiwifish.getElementsByTagName('g')[1].getElementsByTagName('path')[5].setAttribute('class', 'colortemp');
+                        kiwifish.getElementsByTagName('g')[1].getElementsByTagName('path')[0].setAttribute('class', 'colortemp2');
+                    } else {
+                        kiwifish.getElementsByTagName('g')[1].getElementsByTagName('path')[5].setAttribute('class', 'cls-14');
+                        kiwifish.getElementsByTagName('g')[1].getElementsByTagName('path')[0].setAttribute('class', 'cls-11');
+                    }
+                } else
+                    if (e.keyCode == 51) {
+                        var attr = objectTag.getAttributeNames();
+                        var
+                            classID = objectTag.getAttribute('class');
+                        if
+                            (classID == "kiwiobjectOverlay") {
+                            objectTag.removeAttribute('class')
+                        }
+                        else {
+                            objectTag.setAttribute('class', 'kiwiobjectOverlay');
+                        }
+
+                    }
+
+        };
+    </script>
+
+</body>
+
+<script>
+</script>
+
+</html>

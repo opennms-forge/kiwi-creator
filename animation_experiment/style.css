@@ -1,0 +1,284 @@
+.cls-1 {
+    fill: url(#linear-gradient);
+}
+
+.cls-2 {
+    fill: #f4c3dc;
+}
+
+.cls-test {
+    mask: #728808;
+}
+
+.cls-3,
+.cls-4 {
+    fill: #f995c2;
+}
+
+.cls-5 {
+    fill: #f7941d;
+}
+
+.cls-6 {
+    fill: #e89e4d;
+}
+
+.cls-7 {
+    fill: #fff;
+}
+
+.cls-8 {
+    fill: #fec33e;
+}
+
+.cls-9 {
+    fill: #995628;
+}
+
+.cls-10 {
+    fill: #2f754b;
+}
+
+.cls-11 {
+    fill: #85999e;
+}
+
+.cls-12 {
+    fill: #a97c50;
+}
+
+.cls-13 {
+    fill: #bcbec0;
+}
+
+.cls-14 {
+    fill: #bcc5c9;
+}
+
+.cls-15 {
+    fill: #be1e2d;
+}
+
+.cls-16 {
+    fill: #1c75bc;
+}
+
+.cls-17 {
+    fill: #723e14;
+}
+
+.cls-18 {
+    fill: #6d6e71;
+}
+
+.cls-19 {
+    fill: #808285;
+}
+
+.cls-20 {
+    fill: #283c75;
+}
+
+.cls-21 {
+    fill: #58595b;
+}
+
+.cls-22 {
+    fill: #51280d;
+}
+
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-26 {
+    stroke-linecap: round;
+}
+
+.cls-23,
+.cls-24,
+.cls-25,
+.cls-26,
+.cls-27 {
+    fill: none;
+}
+
+.cls-23,
+.cls-25,
+.cls-27 {
+    stroke-miterlimit: 10;
+}
+
+.cls-23,
+.cls-26 {
+    stroke: #a1b0b5;
+    stroke-width: 7px;
+}
+
+.cls-28 {
+    opacity: .12;
+}
+
+.cls-28,
+.cls-29,
+.cls-30,
+.cls-31 {
+    mix-blend-mode: multiply;
+}
+
+.cls-24 {
+    stroke: #d1d3d4;
+    stroke-width: 4px;
+}
+
+.cls-24,
+.cls-26 {
+    stroke-linejoin: round;
+}
+
+.cls-25,
+.cls-27 {
+    stroke: #ea8947;
+    stroke-width: 9px;
+}
+
+.cls-32 {
+    fill: url(#linear-gradient-3);
+}
+
+.cls-33 {
+    fill: url(#linear-gradient-4);
+}
+
+.cls-34 {
+    fill: url(#linear-gradient-2);
+}
+
+.cls-35 {
+    fill: url(#linear-gradient-6);
+}
+
+.cls-36 {
+    fill: url(#linear-gradient-5);
+}
+
+.cls-37 {
+    isolation: isolate;
+}
+
+.cls-29 {
+    opacity: .17;
+}
+
+.cls-30 {
+    opacity: .25;
+}
+
+.cls-31 {
+    opacity: .18;
+}
+
+.cls-4 {
+    opacity: .5;
+}
+
+
+.rightleg {
+    fill: #fec33e;
+    transform-origin: 50% 0%;
+    animation: 1s linear 1s infinite alternate rightleganimation;
+
+}
+
+.rightlegshadow {
+    opacity: .12;
+    transform-origin: 50% 0%;
+    animation: 1s linear 1s infinite alternate rightleganimation;
+}
+
+@keyframes rightleganimation {
+
+
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform-origin: 50% 0%;
+        transform: rotate(10deg);
+    }
+}
+
+.leftleg {
+    fill: #fec33e;
+    transform-origin: 50% 0%;
+    animation: 1s linear 1s infinite alternate leftleganimation;
+
+}
+
+.leftlegshadow {
+    opacity: .12;
+    transform-origin: 50% 0%;
+    animation: 1s linear 1s infinite alternate leftleganimation;
+}
+
+@keyframes leftleganimation {
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform-origin: 50% 0%;
+        transform: rotate(-10deg);
+    }
+}
+
+
+.suitcase {
+    transform-origin: 50% 0%;
+    animation: 1.1s linear 1.1s infinite alternate suitcaseanimation;
+
+}
+
+@keyframes suitcaseanimation {
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform-origin: 50% 0%;
+        transform: rotate(10deg);
+    }
+}
+
+
+.leftwing {
+    transform-origin: 50% 0%;
+    animation: 1.1s linear 1.1s infinite alternate leftwinganimation;
+
+}
+
+@keyframes leftwinganimation {
+    100% {
+        -webkit-transform: rotate(5deg);
+        transform-origin: 10% 100%;
+        transform: rotate(5deg);
+    }
+}
+
+.fish {
+    transform-origin: 50% 0%;
+    animation: 1.1s linear 1.1s infinite alternate fishanimation;
+
+}
+
+@keyframes fishanimation {
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform-origin: 50% 0%;
+        transform: rotate(10deg);
+    }
+}
+
+.colortemp {
+    fill: #708608
+}
+
+.colortemp2 {
+    fill: #8D77F7
+}
+
+.kiwiobjectOverlay {
+    position: absolute;
+    transform: scale(-1, 1);
+}
