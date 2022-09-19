@@ -1,0 +1,35 @@
+{
+  "name": "kiwi-creator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@featherds/app-bar": "0.12.2",
+    "@featherds/app-layout": "0.12.2",
+    "@featherds/button": "0.12.2",
+    "@featherds/dialog": "0.12.2",
+    "@featherds/icon": "0.12.2",
+    "@featherds/snackbar": "0.12.2",
+    "@featherds/styles": "0.12.2",
+    "@featherds/utils": "0.12.2",
+    "@vueuse/core": "^8.5.0",
+    "pinia": "^2.0.20",
+    "sass": "^1.54.9",
+    "swiper": "^8.3.2",
+    "vite-svg-loader": "^3.3.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.6.4",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
