@@ -18,9 +18,12 @@
       </div>
 
       <!-- Right sliders -->
-      <div class="right-sliders">
-        <ColorCarousel />
-        <ObjectsCarousel />
+      <div class="right-panel">
+        <div class="right-sliders">
+          <ColorCarousel />
+          <ObjectsCarousel />
+        </div>
+        <LogoPicker />
       </div>
     </div>
   </FeatherAppLayout>
@@ -75,6 +78,8 @@ body {
     width: 100%;
     padding: 4em;
     padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     justify-content: space-between;
 
     .svg-btns {
@@ -86,13 +91,19 @@ body {
       height: calc(100vh - 134px);
     }
 
-    .right-sliders {
+    .right-panel {
       display: flex;
-      justify-content: flex-end;
-      width: 190px;
-      min-width: 190px;
-      max-height: 720px;
-      padding-top: 50px;
+      flex-direction: column;
+      gap: 20px;
+
+      .right-sliders {
+        display: flex;
+        justify-content: flex-end;
+        width: 190px;
+        min-width: 190px;
+        max-height: 720px;
+        padding-top: 50px;
+      }
     }
   }
 }

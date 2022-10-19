@@ -19,6 +19,7 @@ declare module '@vue/runtime-core' {
     FeatherIcon: typeof import('@featherds/icon')['FeatherIcon']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     KiwiContainer: typeof import('./src/components/KiwiContainer.vue')['default']
+    LogoPicker: typeof import('./src/components/LogoPicker.vue')['default']
     Menubar: typeof import('./src/components/Menubar.vue')['default']
     ObjectsCarousel: typeof import('./src/components/ObjectsCarousel.vue')['default']
   }

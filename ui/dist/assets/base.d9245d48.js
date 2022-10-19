@@ -1,0 +1,156 @@
+const r=`<?xml version="1.0" encoding="UTF-8"?>\r
+<svg id="kiwi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262.84 1262.84">\r
+  <defs><style>.blank-1{fill:#fff;}</style></defs>\r
+\r
+  <g id="BackgroundHolder"></g>\r
+  <g id="LogoHolder" transform="translate(866,367.5)"></g>\r
+\r
+  <svg id="baseimg" xmlns="http://www.w3.org/2000/svg" viewBox="-140 -290 1109.9 1228.86">\r
+      <defs>\r
+        <style>.base-1{fill:#fec33e;}.base-2{fill:#a97c50;}.base-3{opacity:.12;}.base-3,.base-4{mix-blend-mode:multiply;}.base-5{isolation:isolate;}.base-4{opacity:.18;}</style>\r
+      </defs><g class="base-5"><g id="Layer_2"><g id="Layer_1-2"><g id="Base">\r
+        <path id="left-leg-fill" fill="#FEC23E" d="M468.85,782.94c2.35,9.8-4.13,19.54-14.08,21.16-3.89,.63-7.06,1.11-7.83,1.23-16.45,2.47-36.73,4.71-50.19,15.46-3.24,2.59-6.4,5.88-8.79,9.47-2.91,4.37,.99,10.07,6.15,9.1,16.31-3.07,32.52-5.58,48.86-8.81-7.97,6.76-15.81,14.55-23.78,21.31-4.14,3.51-8.34,6.73-11.05,11.53-1.76,3.11-4.99,9.65-3.77,18.01,.63,4.32,5.59,6.51,9.22,4.09,20.85-13.89,40.51-30.53,59.52-46.64-3.93,7.97-7.87,15.94-11.8,23.9-3.15,6.39-5.76,10.87-6.33,17.95-.38,4.77-.1,9.06,1.14,13.24,1.17,3.92,5.93,5.45,9.23,3.04,3.47-2.54,6.71-5.26,9.58-8.67,4.52-5.37,9.05-11.76,12.37-17.96,5.24-9.78,13.58-26.21,19.81-36.51,4.36-7.21,7.31-15.17,8.33-23.53l7.73-147.83-83.93-2.84s20.59,85.74,29.61,123.3Z"/>\r
+        <path id="left-wing-fill" class="base-2" d="M344,532.45c.59,3.17-19.27,10-22.13,10.89-21.09,6.53-57.06,8.86-79.97,7.67-16.38-.86-58.63-7.85-67.62-23.78,7.25-2.22,14.85-3.73,22.29-5.45-4.57,1.06-24.07-1.79-28.89-3.03-22.43-5.75-42.34-20.42-52.38-43.33-1.51-3.45-2.85-7.39-1.68-10.94,1.24-3.77,5.08-5.94,8.8-6.19,5.47-.37,10.21,.53,15.64-.42-9.4-5.5-18.46-12.89-21.7-24.35-.95-3.35-1.13-7.62,1.49-9.61,2.49-1.88,37.75-16.06,72.41-30.36,18.89-7.8,45.01-19.98,62.98-31.93,3.32-2.21,11.8,33.1,13.7,36.26,5.51,9.18,10.81,18.52,16.06,27.88,11.68,20.84,23.07,51.89,34.22,73.06,4.3,8.16,25.05,24.31,26.78,33.66Z"/>\r
+        <path class="base-4" d="M344,532.45c.59,3.17-19.27,10-22.13,10.89-21.09,6.53-57.06,8.86-79.97,7.67-16.38-.86-58.63-7.85-67.62-23.78,7.25-2.22,14.85-3.73,22.29-5.45-4.57,1.06-24.07-1.79-28.89-3.03-22.43-5.75-42.34-20.42-52.38-43.33-1.51-3.45-2.85-7.39-1.68-10.94,1.24-3.77,5.08-5.94,8.8-6.19,5.47-.37,10.21,.53,15.64-.42-9.4-5.5-18.46-12.89-21.7-24.35-.95-3.35-1.13-7.62,1.49-9.61,2.49-1.88,37.75-16.06,72.41-30.36,18.89-7.8,45.01-19.98,62.98-31.93,3.32-2.21,11.8,33.1,13.7,36.26,5.51,9.18,10.81,18.52,16.06,27.88,11.68,20.84,23.07,51.89,34.22,73.06,4.3,8.16,25.05,24.31,26.78,33.66Z"/>\r
+        <path id="right-leg-fill" fill="#FEC23E" d="M651.06,791.89l34.2-154.66-95.72-6.19,18.37,159.26c.37,12.11-2.54,24.09-8.44,34.68-6.86,12.31-13.71,24.62-20.83,36.77-4.7,8.03-8.09,16.23-9.5,25.18-.71,4.5,3.39,8.26,7.81,7.17,1.57-.39,2.8-.71,3.12-.84,4.04-1.59,7.84-3.83,11.17-6.62,4.23-3.54,6.44-7.66,9.19-12.34,4.45-7.56,8.9-15.12,13.36-22.68,.59,7.09,1.17,14.17,1.76,21.26,1.09,13.24,1.78,29.14,10.03,40.35,2.9,3.95,9.03,3.35,10.96-1.15,7.18-16.75,3.75-42.79,2.01-63.9-.01-.16,7.74,9.82,11.79,16.84,3.74,6.49,7.28,13.72,12.92,18.82,3.02,2.73,6.52,5.1,10.2,7.09,4.41,2.38,9.72-1.05,9.36-6.04-.1-1.38-.18-2.42-.2-2.69-.65-9.98-4.61-19.1-9.54-27.66l-16.89-29.3c-5.81-10.09-7.65-21.99-5.13-33.35Z"/>\r
+        <path class="base-3" d="M480.98,718.91c9.95,2.09,20.83,2.85,30.85,1.06s8.8-8.99,9.28-18.09c.69-13.13,1.37-26.27,2.06-39.4,0,0-83.88-2.83-83.92-2.83l10.45,43.46c3.89,9.3,21.37,13.63,30.27,15.59,.33,.07,.67,.15,1.01,.22Z"/>\r
+        <path class="base-3" d="M635.81,720.58c7.84-1.64,15.44-4.44,22.44-8.32,4.17-2.31,10.15-5.28,12.51-9.43,0,0,11.14-50.39,14.5-65.6l-95.72-6.19c2.83,24.57,5.67,49.14,8.5,73.7,.73,6.3-.45,13.05,5.58,15.99s16.92,1.82,23.44,1.18c2.93-.29,5.85-.74,8.74-1.34Z"/>\r
+        <path id="body-fill" class="base-2" d="M813.67,466.19c-16.97-135.61-111.82-234.12-241.36-270.21-26.77-7.46-54.16-17.04-74.57-36.71s-29.14-54.86-49.02-74.85c-26.48-26.62-63.16-42.64-100.79-43.13-79.63-1.04-145.02,62.67-146.06,142.3-.54,41.51,21.33,86.63,27.9,126.86,8.08,49.45,21.43,107.67,33.19,156.26,26.73,110.49,119.12,196.64,229.88,219.54,59.81,12.37,122.24,11.72,180.43-6.66,53.77-16.98,107.47-49.62,129.23-105.43,12.91-33.12,15.87-70.36,11.16-107.99Z"/>\r
+        <path class="base-3" d="M794.46,591.32c6.47-12.2,10-20.89,13.78-34.33-26.62,28.72-65.55,44.93-103.73,53.46-40.81,9.12-78.51,10.62-120.01,7.73-27.37-1.91-54.58-6.05-81.27-12.4-13.67-3.25-27.2-7.09-40.55-11.5-5.11-1.7-10.03-3.91-15.02-5.94s-9.89-3.64-14.77-6.07c1.88,3.78,3.28,7.8,4.16,11.92,.31,1.44,.48,3.15-.56,4.2-1.04,1.04-2.74,.87-4.17,.56-18.85-3.98-31.13-18.9-43.51-32.43,2.29,2.5,5.25,11.59,5.31,14.83,.2,14.17-13.66,4.81-19.18,.82-8.33-6.01-14.96-13.96-22.37-21.07-32.61-31.28-61.41-60.76-93.74-111.89,3.97,16.77,7.95,33.4,13.99,49.59,35.39,94.88,121.1,166.98,220.05,187.45,59.81,12.37,122.24,11.72,180.43-6.66,24.45-7.72,48.21-18.36,69.37-32.93,10.8-7.43,20.86-15.94,29.89-25.46,7.82-7.82,16.83-20.3,21.91-29.89Z"/>\r
+        <path id="beak-fill" fill="#FEC23E" d="M323.59,192.86c-2.84-13.22-15.85-21.64-29.07-18.8-66.79,14.32-119.49,27.07-184.32,48.45C42.79,244.73,13.02,273.41,.97,289.25c-2.82,3.71,.98,8.81,5.34,7.17,26.21-9.87,52.03-20.79,78.71-29.37,37.12-11.94,176.78-39.02,216.67-44.65,14.47-2.04,25.08-15.25,21.91-29.53Z"/>\r
+        <path id="hair-fill" class="base-2" d="M305.78,69.03c12.28-20.87,17.39-39.94,12.77-63.75-.31-1.57-.55-3.47,.63-4.55,.87-.79,2.17-.8,3.33-.67,5.52,.61,10.76,3.5,14.21,7.86,6.56,8.26,5.51,16,3.82,23.91,5.93-5.84,9.43-14.1,13.92-23.47,.4-.83,.83-1.7,1.58-2.24,2.11-1.51,4.97,.5,6.5,2.6,7.77,10.63,6.53,25.13-2.4,34.48-5.52,5.77-12.3,10.15-19.01,14.47"/>\r
+      </g>\r
+    \r
+    <!-- eyes -->\r
+    <g id="eyes-holder" transform="translate(234,118.5)"></g>\r
+    \r
+    <!-- eyewear -->\r
+    <g id="monocle-holder" transform="translate(325,100.5)"></g>\r
+    <g id="bandage-holder" transform="translate(201,94.5)"></g>\r
+    <g id="patch-holder" transform="translate(233,83.5)"></g>\r
+    \r
+    <!-- headgear -->\r
+    <g id="piratehat-holder" transform="translate(135,-87)"></g>\r
+    \r
+    <!-- eyewear -->\r
+    <g id="domino-holder" transform="translate(210,105)"></g>\r
+    \r
+    <!-- headgear -->\r
+    <g id="witch-holder" transform="translate(60,-250)"></g>\r
+    <g id="flower-holder" transform="translate(257,-9)"></g>\r
+    <g id="top-holder" transform="translate(145,-154)"></g>\r
+    <g id="crown-holder" transform="translate(233,-58)"></g>\r
+    <g id="beret-holder" transform="translate(191,-33)"></g>\r
+    <g id="headphones-holder" transform="translate(199,-12)"></g>\r
+    <g id="knit-holder" transform="translate(216,-100)"></g>\r
+    <g id="turban-holder" transform="translate(208,-59)"></g>\r
+    <g id="antenna-holder" transform="translate(237,-71)"></g>\r
+    <g id="catears-holder" transform="translate(214,1)"></g>\r
+    <g id="chef-holder" transform="translate(203,-119)"></g>\r
+    <g id="devil_doctor-holder" transform="translate(230,15)"></g>\r
+    <g id="horns-holder" transform="translate(190,-143)"></g>\r
+    <g id="jesterhat-holder" transform="translate(99,-103)"></g>\r
+    <g id="nurse-holder" transform="translate(238,-27)"></g>\r
+    <g id="nurseblood-holder" transform="translate(238,-47)"></g>\r
+    <g id="pharaohhat-holder" transform="translate(173,-29)"></g>\r
+    \r
+    <g id="princesshat-holder" transform="translate(246,-240)"></g>\r
+    <g id="tiara-holder" transform="translate(270,-1)"></g>\r
+    <g id="waldohat-holder" transform="translate(217,-77)"></g>\r
+    \r
+    <!-- left prop -->\r
+    <g id="left-prop-holder" transform="translate(50,382)"></g>\r
+    <g id="rod-holder" transform="translate(-109,-120)"></g>\r
+    <g id="wand-holder" transform="translate(55,285)"></g>\r
+    <g id="phone-holder" transform="translate(96,372)"></g>\r
+    <g id="staff-holder" transform="translate(85,273)"></g>\r
+    <g id="brush-holder" transform="translate(71,306)"></g>\r
+    <g id="broom-holder" transform="translate(80,274)"></g>\r
+    <g id="skate-holder" transform="translate(45,366)"></g>\r
+    <g id="game-holder" transform="translate(46,377)"></g>\r
+    <g id="book-holder" transform="translate(2,341)"></g>\r
+    <g id="ankh-holder" transform="translate(83,299)"></g>\r
+    <g id="beer-holder" transform="translate(91,299)"></g>\r
+    <g id="candle-holder" transform="translate(51,287)"></g>\r
+    <g id="fan-holder" transform="translate(-66,269)"></g>\r
+    <g id="firehose-holder" transform="translate(-89,395)"></g>\r
+    <g id="hook-holder" transform="translate(-56,386)"></g>\r
+    <g id="pumpkin-holder" transform="translate(-80,297)"></g>\r
+    <g id="lasso-holder" transform="translate(-192,-181)"></g>\r
+    <g id="glass-holder" transform="translate(-7,312)"></g>\r
+    <g id="cards-holder" transform="translate(23,314)"></g>\r
+    <g id="gun-holder" transform="translate(-73,314)"></g>\r
+    <g id="shield-holder" transform="translate(7,277)"></g>\r
+    <g id="skull-holder" transform="translate(-18,299)"></g>\r
+    <g id="syringe-holder" transform="translate(73,350)"></g>\r
+    <g id="telescope-holder" transform="translate(24,294)"></g>\r
+    <g id="whisk-holder" transform="translate(32,291)"></g>\r
+    \r
+    <!--  Tutu -->\r
+    <g id="tutu-holder" transform="translate(267, 290)"></g>\r
+    \r
+    <!-- right prop -->\r
+    <g id="right-prop-holder" transform="translate(455, 420)"></g>\r
+    <g id="snowboard-holder" transform="translate(254, 284)"></g>\r
+    <g id="tennis-holder" transform="translate(174, 378)"></g>\r
+    <g id="laptop-holder" transform="translate(452, 362)"></g>\r
+    <g id="stick-holder" transform="translate(236, 63)"></g>\r
+    <g id="backpack-holder" transform="translate(527, 443)"></g>\r
+    <g id="sword-holder" transform="translate(92, 402)"></g>\r
+    <g id="sword2-holder" transform="translate(169, 405)"></g>\r
+    <g id="weights-holder" transform="translate(411, 296)"></g>\r
+    <g id="ulf-holder" transform="translate(465, 452)"></g>\r
+    <g id="axe-holder" transform="translate(320, 379)"></g>\r
+    <g id="battleaxe-holder" transform="translate(261, 367)"></g>\r
+    <g id="bucket-holder" transform="translate(474, 432)"></g>\r
+    <g id="right-book-holder" transform="translate(499, 394)"></g>\r
+    <g id="cat-tail-holder" transform="translate(558, 385)"></g>\r
+    <g id="knife-holder" transform="translate(348, 420)"></g>\r
+    <g id="pitchfork-holder" transform="translate(77, 374)"></g>\r
+    \r
+    <!-- right wing -->\r
+    <g id="right-wing-holder" transform="translate(460, 350)"></g>\r
+    \r
+    <!-- Neck -->\r
+    <g id="bandana-holder" transform="translate(217,99)"></g>\r
+    <g id="pearls-holder" transform="translate(215,157)"></g>\r
+    <g id="neck-holder" transform="translate(223,162)"></g>\r
+    <g id="scarf-holder" transform="translate(225,153)"></g>\r
+    <g id="camera-holder" transform="translate(222,160)"></g>\r
+    <g id="chain-holder" transform="translate(230,159)"></g>\r
+    <g id="chainmail-holder" transform="translate(216,170)"></g>\r
+    <g id="collar-holder" transform="translate(221,162)"></g>\r
+    <g id="phar-holder" transform="translate(226,162)"></g>\r
+    <g id="kerchief-holder" transform="translate(217,165)"></g>\r
+    <g id="hat-holder" transform="translate(86,114)"></g>\r
+    <g id="stetho-holder" transform="translate(225,155)"></g>\r
+    <g id="web-holder" transform="translate(232,166)"></g>\r
+    <g id="jester-holder" transform="translate(87,117)"></g>\r
+    \r
+    <!-- headgear -->\r
+    <g id="hijab-holder" transform="translate(192,-1)"></g>\r
+    \r
+    <!-- eyewear -->\r
+    <g id="ski-holder" transform="translate(190,82.5)"></g>\r
+    \r
+    <!-- headgear -->\r
+    <g id="kitsune-holder" transform="translate(233,-22)"></g>\r
+    \r
+    <!-- eyewear -->\r
+    <g id="sun-holder" transform="translate(194,108.5)"></g>\r
+    <g id="alien-holder" transform="translate(198,87)"></g>\r
+    <g id="glasses-holder" transform="translate(206,103)"></g>\r
+    \r
+    <!-- headgear -->\r
+    <g id="cowboy-holder" transform="translate(112,-69)"></g>\r
+    <g id="cap-holder" transform="translate(136,-30)"></g>\r
+    <g id="firefighter-holder" transform="translate(130,-64)"></g>\r
+    <g id="sherlockhat-holder" transform="translate(184,-59)"></g>\r
+    <g id="knight-holder" transform="translate(205,-129)"></g>\r
+    \r
+    </g>\r
+    </g>\r
+    </g>\r
+    </svg>\r
+</svg>\r
+`;export{r as default};

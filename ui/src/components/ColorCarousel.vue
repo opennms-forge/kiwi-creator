@@ -14,7 +14,10 @@
       ref="swiperRef"
     >
       <swiper-slide v-for="swatch in swatchStore.palette.colors">
-        <div class="color-block" :style="`background: ${swatch.primary}`" @click="onSelect(swatch)">
+        <div class="color-block" 
+          :style="`background: ${swatch.primary === 'none' ? `url(${pathsStore.selectedBackgroundPath.replace('/objects', '/icons')}) no-repeat fixed center` : swatch.primary}`" 
+          @click="onSelect(swatch)"
+        >
           <FeatherIcon 
             v-if="swatch.id === swatchStore.palette.selectedSwatch.id"
             :icon="Check"
@@ -65,6 +68,7 @@ const display = computed(() => {
     (swatchStore.palette.colors.length && 
     attr !== Attributes.HEADGEAR &&
     attr !== Attributes.EYEWEAR &&
+    attr !== Attributes.BACKGROUND &&
     attr !== Attributes.NECK)
   )
 })

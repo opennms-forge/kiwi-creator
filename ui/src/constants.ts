@@ -11,7 +11,8 @@ enum Attributes {
   HEADGEAR = 'Headgear',
   EYEWEAR = 'Eyewear',
   RIGHT_PROP = 'Right Prop',
-  LEFT_PROP = 'Left Prop'
+  LEFT_PROP = 'Left Prop',
+  BACKGROUND = 'Background'
 }
 
 const BodySwatches: Swatch[] = [
@@ -162,6 +163,38 @@ const ItemSwatches: Swatch[] = [
   { id: 31, primary: '#6F6F6F' },
 ]
 
+const BackgroundSwatches: Swatch[] = [
+  { id: 32, primary: 'none', secondary: '#FFFFF' },
+  { id: 2, primary: '#38405D' },
+  { id: 3, primary: '#543123' },
+  { id: 4, primary: '#724437' },
+  { id: 5, primary: '#854242' },
+  { id: 6, primary: '#976144' },
+  { id: 7, primary: '#9F592A' },
+  { id: 8, primary: '#B66932' },
+  { id: 9, primary: '#C9A467' },
+  { id: 10, primary: '#D2CCBE' },
+  { id: 11, primary: '#B1BDC9' },
+  { id: 14, primary: '#B89D7A' },
+  { id: 15, primary: '#E2AB8A' },
+  { id: 16, primary: '#CE8D8D' },
+  { id: 17, primary: '#D7B373' },
+  { id: 18, primary: '#D7D22C' },
+  { id: 19, primary: '#FFB600' },
+  { id: 20, primary: '#D66B1C' },
+  { id: 21, primary: '#D61B3A' },
+  { id: 22, primary: '#E245BF' },
+  { id: 23, primary: '#9E4D9E' },
+  { id: 24, primary: '#4A106B' },
+  { id: 25, primary: '#2C3EC1' },
+  { id: 26, primary: '#27C1AA' },
+  { id: 27, primary: '#8CC3B9' },
+  { id: 28, primary: '#19D51F' },
+  { id: 29, primary: '#87DD1E' },
+  { id: 30, primary: '#83D08C' },
+  { id: 31, primary: '#6F6F6F' },
+]
+
 const EyePaths: string[] = [
   '/objects/eyes/Eye-Standard.svg',
   '/objects/eyes/Eye-Angry.svg',
@@ -185,6 +218,21 @@ const NeckPaths: string[] = [
   '/objects/neck/Neck-Scarf2.svg',
   '/objects/neck/Neck-Scarf3.svg',
   '/objects/neck/Neck-Tie.svg',
+  '/objects/neck/Neck-BellCollar.svg',
+  '/objects/neck/Neck-Chainmail.svg',
+  '/objects/neck/Neck-Chains.svg',
+  '/objects/neck/Neck-Collar.svg',
+  '/objects/neck/Neck-Collar(blood).svg',
+  '/objects/neck/Neck-Cowl.svg',
+  '/objects/neck/Neck-EgyptianCollar.svg',
+  '/objects/neck/Neck-Handkerchief.svg',
+  '/objects/neck/Neck-Jester.svg',
+  '/objects/neck/Neck-LongPearls.svg',
+  '/objects/neck/Neck-NeckScarf.svg',
+  '/objects/neck/Neck-PirateMedalion.svg',
+  '/objects/neck/Neck-SpiderWeb.svg',
+  '/objects/neck/Neck-Stethoscope.svg',
+  '/objects/neck/Neck-WaldoScarf.svg',
 ]
 
 const HeadgearPaths: string[] = [
@@ -201,6 +249,24 @@ const HeadgearPaths: string[] = [
   '/objects/headgear/Hat-Hijab.svg',
   '/objects/headgear/Hat-Knit.svg',
   '/objects/headgear/Hat-Turban.svg',
+  '/objects/headgear/Hat-AlienAntenna.svg',
+  '/objects/headgear/Hat-CatEars.svg',
+  '/objects/headgear/Hat-Chef.svg',
+  '/objects/headgear/Hat-DevilHorns.svg',
+  '/objects/headgear/Hat-Doctor.svg',
+  '/objects/headgear/Hat-Firefighter.svg',
+  '/objects/headgear/Hat-HornHelmet.svg',
+  '/objects/headgear/Hat-Jester.svg',
+  '/objects/headgear/Hat-Kitsune.svg',
+  '/objects/headgear/Hat-Knight.svg',
+  '/objects/headgear/Hat-Nurse.svg',
+  '/objects/headgear/Hat-Nurse(blood).svg',
+  '/objects/headgear/Hat-Pharaoh.svg',
+  '/objects/headgear/Hat-Pirate.svg',
+  '/objects/headgear/Hat-Princess.svg',
+  '/objects/headgear/Hat-Sherlock.svg',
+  '/objects/headgear/Hat-Tiara.svg',
+  '/objects/headgear/Hat-Waldo.svg',
 ]
 
 const EyewearPaths: string[] = [
@@ -214,6 +280,8 @@ const EyewearPaths: string[] = [
   '/objects/eyewear/Glasses-Shutter.svg',
   '/objects/eyewear/Glasses-Ski.svg',
   '/objects/eyewear/Glasses-Sun.svg',
+  '/objects/eyewear/Glasses-Alien.svg',
+  '/objects/eyewear/Glasses-DominoMask.svg',
 ]
 
 const RightPropPaths: string[] = [
@@ -227,6 +295,15 @@ const RightPropPaths: string[] = [
   '/objects/right/Right-Weights.svg',
   '/objects/right/Right-HockeyStick.svg',
   '/objects/right/Right-Backpack.svg',
+  '/objects/right/Right-Axe.svg',
+  '/objects/right/Right-Axe(blood).svg',
+  '/objects/right/Right-BattleAxe.svg',
+  '/objects/right/Right-Book.svg',
+  '/objects/right/Right-CandyBucket.svg',
+  '/objects/right/Right-CatTail.svg',
+  '/objects/right/Right-Knife(blood).svg',
+  '/objects/right/Right-Pitchfork.svg',
+  '/objects/right/Right-Sword2.svg',
 ]
 
 const LeftPropPaths: string[] = [
@@ -241,6 +318,22 @@ const LeftPropPaths: string[] = [
   '/objects/left/Left-Wand.svg',
   '/objects/left/Left-GameController.svg',
   '/objects/left/Left-Book.svg',
+  '/objects/left/Left-Ankh.svg',
+  '/objects/left/Left-Candle.svg',
+  '/objects/left/Left-ClubMate.svg',
+  '/objects/left/Left-Fan.svg',
+  '/objects/left/Left-FireHose.svg',
+  '/objects/left/Left-Hook.svg',
+  '/objects/left/Left-JackoLantern.svg',
+  '/objects/left/Left-Lasso.svg',
+  '/objects/left/Left-MagnifyingGlass.svg',
+  '/objects/left/Left-PlayingCards.svg',
+  '/objects/left/Left-Raygun.svg',
+  '/objects/left/Left-Shield.svg',
+  '/objects/left/Left-Skull.svg',
+  '/objects/left/Left-Syringe.svg',
+  '/objects/left/Left-Telescope.svg',
+  '/objects/left/Left-Whisk.svg',
 ]
 
 const PathsWithSpecialPalette = [
@@ -252,6 +345,30 @@ const PathsWithSpecialPalette = [
   '/objects/eyewear/Glasses-Shutter.svg',
   '/objects/eyewear/Glasses-Ski.svg',
   '/objects/eyewear/Glasses-Sun.svg',
+  '/objects/background/Bkgd-Blank.svg',
+  '/objects/background/Bkgd-Dots.svg',
+  '/objects/background/Bkgd-Grid.svg',
+  '/objects/background/Bkgd-Sprinkles.svg',
+  '/objects/background/Bkgd-Squiggles.svg',
+  '/objects/background/Bkgd-Stripes.svg',
+  '/objects/background/Bkgd-Bats.svg',
+]
+
+const BackgroundPaths = [
+  '/objects/background/Bkgd-Blank.svg',
+  '/objects/background/Bkgd-Dots.svg',
+  '/objects/background/Bkgd-Grid.svg',
+  '/objects/background/Bkgd-Sprinkles.svg',
+  '/objects/background/Bkgd-Squiggles.svg',
+  '/objects/background/Bkgd-Stripes.svg',
+  '/objects/background/Bkgd-Bats.svg',
+  '/objects/background/Scene-HauntedHouse.svg',
+  '/objects/background/Scene-Space.svg',
+]
+
+const LogoPaths = [
+  '/objects/background/Logo_Black.svg',
+  '/objects/background/Logo_White.svg',
 ]
 
 export {
@@ -261,6 +378,7 @@ export {
   BeakSwatches,
   EyeSwatches,
   ItemSwatches,
+  BackgroundSwatches,
 
   NeckPaths,
   EyePaths,
@@ -269,6 +387,8 @@ export {
   RightPropPaths,
   LeftPropPaths,
   PathsWithSpecialPalette,
+  BackgroundPaths,
+  LogoPaths,
 
   PALETTE,
   PATH

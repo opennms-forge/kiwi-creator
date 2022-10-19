@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { useAttributeStore } from './attributeStore'
-import { Attributes, BodySwatches, BeakSwatches, EyeSwatches, ItemSwatches } from '@/constants'
+import { Attributes, BodySwatches, BeakSwatches, EyeSwatches, ItemSwatches, BackgroundSwatches } from '@/constants'
 import { Palette, Swatch } from '@/types'
 
 export const useSwatchStore = defineStore('swatchStore', {
@@ -9,6 +9,7 @@ export const useSwatchStore = defineStore('swatchStore', {
     beakSwatches: BeakSwatches,
     eyeSwatches: EyeSwatches,
     itemSwatches: ItemSwatches,
+    backgroundSwatches: BackgroundSwatches,
 
     selectedBodySwatch: BodySwatches[0],
     selectedBeakSwatch: BeakSwatches[0],
@@ -16,13 +17,15 @@ export const useSwatchStore = defineStore('swatchStore', {
     selectedHatSwatch: ItemSwatches[0],
     selectedGlassesSwatch: ItemSwatches[0],
     selectedScarfSwatch: ItemSwatches[0],
+    selectedBackgroundSwatch: BackgroundSwatches[0],
 
     previousBodySwatch: BodySwatches[0],
     previousBeakSwatch: BeakSwatches[0],
     previousEyeSwatch: EyeSwatches[0],
     previousHatSwatch: ItemSwatches[0],
     previousGlassesSwatch: ItemSwatches[0],
-    previousScarfSwatch: ItemSwatches[0]
+    previousScarfSwatch: ItemSwatches[0],
+    previousBackgroundSwatch: BackgroundSwatches[0]
   }),
   actions: {
     setSwatch(swatch: Swatch, randomAttribute?: string) {
@@ -47,6 +50,9 @@ export const useSwatchStore = defineStore('swatchStore', {
         case Attributes.NECK:
           this.previousScarfSwatch = this.selectedScarfSwatch
           return this.selectedScarfSwatch = swatch
+        case Attributes.BACKGROUND:
+          this.previousBackgroundSwatch = this.selectedBackgroundSwatch
+          return this.selectedBackgroundSwatch = swatch
         default:
           return
       }
@@ -65,6 +71,8 @@ export const useSwatchStore = defineStore('swatchStore', {
           return this.undo('selectedGlassesSwatch', 'previousGlassesSwatch')
         case Attributes.NECK:
           return this.undo('selectedScarfSwatch', 'previousScarfSwatch')
+        case Attributes.BACKGROUND:
+          return this.undo('selectedBackgroundSwatch', 'previousBackgroundSwatch')
         default:
           return
       }
@@ -114,6 +122,12 @@ export const useSwatchStore = defineStore('swatchStore', {
           return { 
             colors: state.itemSwatches,
             selectedSwatch: state.selectedScarfSwatch,
+            selectedAttribute
+          }
+        case Attributes.BACKGROUND:
+          return { 
+            colors: state.backgroundSwatches,
+            selectedSwatch: state.selectedBackgroundSwatch,
             selectedAttribute
           }
         default:

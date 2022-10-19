@@ -15,8 +15,8 @@ const triggerDownload  = (imgURI: string) => {
 const save = () => {
   const svg = document.getElementById('kiwi') as unknown as SVGSVGElement
   const canvas = document.createElement("canvas") as HTMLCanvasElement;
-  const width = 1075
-  const height = 1228
+  const width = 1262.84
+  const height = 1262.84
 
   canvas.width = width
   canvas.height = height

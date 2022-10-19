@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { useAttributeStore } from './attributeStore'
 import { Option } from '@/types'
-import { Attributes, EyePaths, NeckPaths, HeadgearPaths, EyewearPaths, RightPropPaths, LeftPropPaths } from '@/constants'
+import { Attributes, EyePaths, NeckPaths, HeadgearPaths, EyewearPaths, RightPropPaths, LeftPropPaths, BackgroundPaths, LogoPaths } from '@/constants'
 
 export const usePathsStore = defineStore('pathsStore', {
   state: () => ({
@@ -11,6 +11,7 @@ export const usePathsStore = defineStore('pathsStore', {
     eyewearPaths: EyewearPaths,
     rightPropPaths: RightPropPaths,
     leftPropPaths: LeftPropPaths,
+    backgroudPaths: BackgroundPaths,
 
     selectedEyesPath: EyePaths[0],
     selectedNeckPath: '',
@@ -18,6 +19,8 @@ export const usePathsStore = defineStore('pathsStore', {
     selectedEyewearPath: '',
     selectedRightPropPath: '',
     selectedLeftPropPath: '',
+    selectedBackgroundPath: '',
+    selectedLogoPath: LogoPaths[0],
 
     previousEyesPath: '',
     previousBeakPath: '',
@@ -25,7 +28,8 @@ export const usePathsStore = defineStore('pathsStore', {
     previousHeadgearPath: '',
     previousEyewearPath: '',
     previousRightPropPath: '',
-    previousLeftPropPath: ''
+    previousLeftPropPath: '',
+    previousBackgroundPath: '',
   }),
   actions: {
     setPath(path: string, randomAttribute?: string) {
@@ -50,6 +54,9 @@ export const usePathsStore = defineStore('pathsStore', {
         case Attributes.LEFT_PROP:
           this.previousLeftPropPath = this.selectedLeftPropPath
           return this.selectedLeftPropPath = path
+        case Attributes.BACKGROUND:
+          this.previousBackgroundPath = this.selectedBackgroundPath
+          return this.selectedBackgroundPath = path
         default:
           return ''
       }
@@ -68,6 +75,8 @@ export const usePathsStore = defineStore('pathsStore', {
           return this.undo('selectedRightPropPath', 'previousRightPropPath')
         case Attributes.LEFT_PROP:
           return this.undo('selectedLeftPropPath', 'previousLeftPropPath')
+        case Attributes.BACKGROUND:
+          return this.undo('selectedBackgroundPath', 'previousBackgroundPath')
         default:
           return ''
       }
@@ -117,6 +126,12 @@ export const usePathsStore = defineStore('pathsStore', {
           return { 
             paths: state.leftPropPaths, 
             selectedPath: state.selectedLeftPropPath,
+            selectedAttribute          
+          }
+        case Attributes.BACKGROUND:
+          return { 
+            paths: state.backgroudPaths, 
+            selectedPath: state.selectedBackgroundPath,
             selectedAttribute          
           }
         default:
