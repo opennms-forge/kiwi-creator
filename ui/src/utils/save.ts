@@ -21,6 +21,10 @@ const save = () => {
   canvas.width = width
   canvas.height = height
 
+  // firefox needs a width and height
+  svg.setAttribute('width', '1262.84px')
+  svg.setAttribute('height', '1262.84px')
+
   const ctx = canvas.getContext('2d') as CanvasRenderingContext2D
   const data = (new XMLSerializer()).serializeToString(svg)
   const DOMURL = window.URL || window.webkitURL || window
