@@ -48,12 +48,9 @@ const r=`<?xml version="1.0" encoding="UTF-8"?>\r
     <g id="catears-holder" transform="translate(214,1)"></g>\r
     <g id="chef-holder" transform="translate(203,-119)"></g>\r
     <g id="devil_doctor-holder" transform="translate(230,15)"></g>\r
-    <g id="horns-holder" transform="translate(190,-143)"></g>\r
     <g id="jesterhat-holder" transform="translate(99,-103)"></g>\r
     <g id="nurse-holder" transform="translate(238,-27)"></g>\r
     <g id="nurseblood-holder" transform="translate(238,-47)"></g>\r
-    <g id="pharaohhat-holder" transform="translate(173,-29)"></g>\r
-    \r
     <g id="princesshat-holder" transform="translate(246,-240)"></g>\r
     <g id="tiara-holder" transform="translate(270,-1)"></g>\r
     <g id="waldohat-holder" transform="translate(217,-77)"></g>\r
@@ -129,12 +126,13 @@ const r=`<?xml version="1.0" encoding="UTF-8"?>\r
     \r
     <!-- headgear -->\r
     <g id="hijab-holder" transform="translate(192,-1)"></g>\r
-    \r
+    <g id="horns-holder" transform="translate(190,-143)"></g>\r
     <!-- eyewear -->\r
     <g id="ski-holder" transform="translate(190,82.5)"></g>\r
     \r
     <!-- headgear -->\r
     <g id="kitsune-holder" transform="translate(233,-22)"></g>\r
+    <g id="pharaohhat-holder" transform="translate(173,-29)"></g>\r
     \r
     <!-- eyewear -->\r
     <g id="sun-holder" transform="translate(194,108.5)"></g>\r
